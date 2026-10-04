@@ -1,0 +1,80 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>TravelNow - Portafolio de Viajes</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+
+    <!-- CABECERA -->
+    <header class="header">
+        <div class="header-top">
+            <!-- Menú a la izquierda -->
+            <nav class="navbar">
+                <a href="#inicio">Inicio</a>
+                <a href="#destinos">Destinos</a>
+                <a href="#contacto">Contacto</a>
+            </nav>
+
+            <!-- AVIÓN, TEXTO Y BOTÓN CENTRADOS EXACTAMENTE ARRIBA -->
+            <div class="avion-centro-container">
+                <div class="avion-icono">✈️</div>
+                <span class="vuelos-texto">Vuelos</span>
+                <button class="btn-vuelos" id="btn-vuelos">Buscar Vuelos</button>
+            </div>
+
+            <!-- Botón de tema a la derecha -->
+            <button id="btn-tema" class="btn-tema">🌙 Oscuro</button>
+        </div>
+        
+        <h1 class="logo-titulo">TravelNow</h1>
+    </header>
+
+    <!-- SECCIÓN DE DESTINOS CON RUTAS DENTRO DE LA CARPETA img/ -->
+    <main class="contenedor">
+        <h2>Destinos Destacados</h2>
+        
+        <div class="grid-tarjetas">
+            <!-- Tarjeta 1 -->
+            <article class="card">
+                <img src="img/IMG1.jpg" alt="Playas del Caribe" class="card-img">
+                <div class="card-contenido">
+                    <h3>Playas del Caribe</h3>
+                    <p>Disfruta de la arena blanca y las aguas cristalinas del Mar Caribe.</p>
+                </div>
+            </article>
+
+            <!-- Tarjeta 2 -->
+            <article class="card">
+                <img src="img/IMG2.jpg" alt="Aventuras en la Montaña" class="card-img">
+                <div class="card-contenido">
+                    <h3>Aventuras en la Montaña</h3>
+                    <p>Explora hermosos senderos y paisajes montañosos inolvidables.</p>
+                </div>
+            </article>
+
+            <!-- Tarjeta 3 -->
+            <article class="card">
+                <img src="img/IMG3.jpg" alt="Ciudades Históricas" class="card-img">
+                <div class="card-contenido">
+                    <h3>Ciudades Históricas</h3>
+                    <p>Conoce la cultura, historia y arquitectura de lugares fascinantes.</p>
+                </div>
+            </article>
+
+            <!-- Tarjeta 4 -->
+            <article class="card">
+                <img src="img/IMG4.jpg" alt="Turismo de Naturaleza" class="card-img">
+                <div class="card-contenido">
+                    <h3>Turismo de Naturaleza</h3>
+                    <p>Siente la libertad en entornos naturales totalmente despejados.</p>
+                </div>
+            </article>
+        </div>
+    </main>
+
+    <script src="app.js" defer></script>
+</body>
+</html>
